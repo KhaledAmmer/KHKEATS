@@ -42,6 +42,7 @@ CREATE TABLE address (
 
 CREATE TABLE restarents (
     id INT AUTO_INCREMENT NOT NULL,
+    category VARCHAR(255) NOT NULL,
     location VARCHAR(255) NOT NULL,
     lat VARCHAR(255) NOT NULL,
     lng VARCHAR(255) NOT NULL,
@@ -55,8 +56,17 @@ CREATE TABLE restarent_employee (
     id INT AUTO_INCREMENT NOT NULL,
     employee_id INT,
     restarent_id INT,
-    FOREIGN KEY (restarent_id) REFERENCES restarentS(id),
+    FOREIGN KEY (restarent_id) REFERENCES restarents(id),
     FOREIGN KEY (employee_id) REFERENCES users(id),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE restarentRequest (
+    id INT AUTO_INCREMENT NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    state VARCHAR(255) NOT NULL,
+    onwer_id INT,
+    FOREIGN KEY (onwer_id) REFERENCES users(id),
     PRIMARY KEY (id)
 );
 
@@ -66,6 +76,8 @@ CREATE TABLE meals(
     imgUrl VARCHAR(255) NOT NULL,
     category VARCHAR(255) NOT NULL,
     price INT NOT NULL,
+    restarent_id INT,
+    FOREIGN KEY (restarent_id) REFERENCES restarents(id),
     is_deleted TINYINT DEFAULT 0,
     PRIMARY KEY (id)
 );
