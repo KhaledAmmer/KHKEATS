@@ -30,9 +30,9 @@ KHK EATS offer to you an easy way to get food delivery to your doorstep from tho
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
+![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ```
-![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 - Vs code follow this [[x](https://code.visualstudio.com/download)] <a href = "https://code.visualstudio.com/download">Link</a> to install
 - Mongo DB follow this <a scr = "https://www.mongodb.com/docs/compass/current/install/">Link</a> to install
