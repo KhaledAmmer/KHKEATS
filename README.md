@@ -26,14 +26,14 @@ KHK EATS offer to you an easy way to get food delivery to your doorstep from tho
 <strong>Why KHK EATS ? <br/></strong> you can find the meal you crave and order food from restaurants easily. In addition you can create your own restaurant and control its flow
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-[[x](https://code.visualstudio.com/download)]
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-<a></>
+
 ```
 
-- Vs code follow this <a href = "https://code.visualstudio.com/download">Link</a> to install
+- Vs code follow this [[x](https://code.visualstudio.com/download)] <a href = "https://code.visualstudio.com/download">Link</a> to install
 - Mongo DB follow this <a scr = "https://www.mongodb.com/docs/compass/current/install/">Link</a> to install
 - Node.js follow this <a scr = "">https://nodejs.org/en/download/</a> to install
 - Git Bash follow this <a scr = "https://git-scm.com/download/win">Link</a> to install
