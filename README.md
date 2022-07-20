@@ -61,7 +61,6 @@ npm run dev
 ```
 npm run start
 ```
-<img src="https://res.cloudinary.com/dkldpbnkn/image/upload/v1655601426/Screenshot_2_zqnjlc.png"/>
 
 
 step 3 is only needed if you want to run the app locally. In this case you need to modify variable in the frontend/scr/index.js called <strong>hostUrl</strong> and set its value to http://localhost:5000 <br/>
