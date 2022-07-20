@@ -39,29 +39,30 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-1- <h4>Clone the repo using the following command</h4>
+ <h4>1- Clone the repo using the following command</h4>
 
 ```
 git clone https://github.com/RunTime-Terror-1/MERAKI_Academy_Project_5.git
 ```
 
-2- <h4>Install packages repeat this step for backend and frontend folders</h4>
+<h4>2-  Install packages repeat this step for backend and frontend folders</h4>
 
 ```
 npm i
 ```
 
-3- <h4>to run the severs use the following command</h4>
+<h4>3-  to run the severs use the following command</h4>
 
 ```
 npm run dev
 ```
-<img src""/>
-4- <h4>run the application use the following command</h4>
+ <h4>4- run the application use the following command</h4>
 
 ```
 npm run start
 ```
+<img src="https://res.cloudinary.com/dkldpbnkn/image/upload/v1655601426/Screenshot_2_zqnjlc.png"/>
+
 
 step 3 is only needed if you want to run the app locally. In this case you need to modify variable in the frontend/scr/index.js called <strong>hostUrl</strong> and set its value to http://localhost:5000 <br/>
 <strong>otherwise <br/></strong>
