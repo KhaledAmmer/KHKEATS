@@ -26,7 +26,7 @@ KHK EATS offer to you an easy way to get food delivery to your doorstep from tho
 <strong>Why KHK EATS ? <br/></strong> you can find the meal you crave and order food from restaurants easily. In addition you can create your own restaurant and control its flow
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-
+[[x](https://code.visualstudio.com/download)]
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
