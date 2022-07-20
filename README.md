@@ -56,7 +56,7 @@ npm i
 ```
 npm run dev
 ```
-
+<img src""/>
 4- <h4>run the application use the following command</h4>
 
 ```
