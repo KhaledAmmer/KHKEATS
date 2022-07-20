@@ -32,13 +32,13 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-```
+
 
 - Vs code follow this [[x](https://code.visualstudio.com/download)] <a href = "https://code.visualstudio.com/download">Link</a> to install
 - Mongo DB follow this <a scr = "https://www.mongodb.com/docs/compass/current/install/">Link</a> to install
 - Node.js follow this <a scr = "">https://nodejs.org/en/download/</a> to install
 - Git Bash follow this <a scr = "https://git-scm.com/download/win">Link</a> to install
-```
+
 
 ### Installing
 
